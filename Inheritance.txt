@@ -1,0 +1,67 @@
+package OopsConcept;
+
+class USAbank{
+	String name;
+	String address;
+	
+	 public void Deposit(){
+		 System.out.println("I will give 5% interest rate");
+	 }
+	 
+	 public void Saving() {
+		 System.out.println("I will give 10% interest rate when your saving balance is 10000");
+	 }
+}
+class BOA extends USAbank{
+	String name="Bank of America";
+	String address="Euless";
+	
+	public void Deposit() {
+		System.out.println("I will give 6% interest rate");
+	}
+	public void Saving() {
+		System.out.println("I will give 11% interest rate when your saving balance is 20000");
+	}
+}
+class Chase extends USAbank{
+	String name="JPMorgan chase";
+	String address="Irving";
+	
+	public void Deposit() {
+		
+		System.out.println("I will give 7% interest rate");
+	}
+	public void Saving() {
+		System.out.println("I will give 11.5% interest rate when your saving balance is 350000");
+	}
+}
+
+
+public class Inheritance3 {
+
+	public static void main(String[] args) {
+		
+		USAbank usab=new USAbank();
+		usab.Deposit();
+		usab.Saving();
+		System.out.println("My name is USAbank");
+		System.out.println("My address is USA");
+		System.out.println();
+		
+		BOA boa=new BOA();
+		boa.Deposit();
+		boa.Saving();
+		System.out.println("my bank name is:"+boa.name);
+		System.out.println("my address is:"+boa.address);
+		System.out.println();
+		
+		Chase chase=new Chase();
+		chase.Deposit();
+		chase.Saving();
+		System.out.println("My name is:"+chase.name);
+		System.out.println("my address is:"+chase.address);
+	
+
+	}
+
+}
