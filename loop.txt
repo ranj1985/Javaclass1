@@ -1,0 +1,108 @@
+package JavaClass;
+
+public class ForLoop {
+
+	public static void main(String[]args) {
+		
+		// for Loop 1 method
+		
+		for(int i=0; i<=10;i++) {// it will print 0,1,2,3,4,5,6,7,8,9,10
+			System.out.println(i);
+		}
+		
+		for (int i=0;i<9;i++) {
+			System.out.println(i);// 0,1,2,3,4,5,6,7,8
+		}
+		
+		for(int i=0; i<10;i++ ) {
+			
+			System.out.println(i);
+		
+		}
+		// table of 2
+		
+		for(int i=2;i<=10;i=i+2) {
+			System.out.println(i);//2,4,6,8,10
+		}
+		
+		// Table of 3
+		for(int i=3;i<18;i=i+3) {
+			System.out.println(i);
+			System.out.println();
+		}
+		
+		//Table of 4
+		for (int i=4;i<=20;i=i+4) {
+			System.out.println(i);
+			System.out.println();
+		}
+		//Table of 5
+		for(int i=5;i<=50;i=i+5) {
+			System.out.println(i);
+			System.out.println();
+		}
+		for(int i=100;i<=200;i=i+1){
+			System.out.println(i);
+			System.out.println();
+		}
+		for(int i=0;i<5;i++) {
+			System.out.println("Yes");
+			System.out.println();
+		}
+		for(int i=0;i<=4;i++) {
+			System.out.println("No");
+			System.out.println();
+		}
+		for (int i=100;i>=1;i--) {
+			System.out.println(i);
+			System.out.println();
+		}
+		// for loop with break;
+		for(int i=0; i<5;i++) {//1
+			if(i==3) 
+				break;{
+				System.out.println(i);
+				}
+		
+			
+		}
+		
+		System.out.println();
+		System.out.println("Today practies:08/16/2022");
+		
+		for(int i=0;i<5;i++) {
+			System.out.println("Hello");
+			System.out.println();
+		}
+		
+		for(int i=5; i>0; i--) {
+			
+			System.out.println("Nameste Sir!");
+		}
+		
+		int i=0;
+		while(i<4) {
+			System.out.println(i);
+			i++;
+		}
+		int ii=6;
+		while(ii>0) {
+			System.out.println(ii);
+			ii--;
+		
+		
+		
+		}
+		
+		// table of 2
+		for(int i1=10;i1>=0;i1--) {
+			System.out.println(1*i1);
+		}
+		
+		// table of 4
+		for(int aa=0;aa<=10;aa++) {
+			System.out.println(4*aa);
+		}
+		
+	}
+}
