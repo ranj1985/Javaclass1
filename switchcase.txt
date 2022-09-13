@@ -1,0 +1,179 @@
+package JavaClass;
+
+public class SwitchStatements {
+
+	
+
+	public static void main(String[]args) {
+	
+		//Program1
+		
+		int Months = 1;
+		switch (Months) {
+		
+		case 1:
+			System.out.println("January");		
+		case 2:
+			System.out.println("February");	
+		case 3:
+			System.out.println("March");		
+		case 4:
+			System.out.println("April");		
+		case 5:
+			System.out.println("May");		
+		case 6:
+			System.out.println("June");		
+		case 7:
+			System.out.println("July");		
+		case 8:
+			System.out.println("August");
+		case 9:
+			System.out.println("September");
+		case 10:
+			System.out.println("October");
+		case 11:
+			System.out.println("November");
+		case 12:
+			System.out.println("December");
+			System.out.println();
+		
+		}
+		
+		//Program 2
+		int Day= 6;
+		switch(Day) {
+		
+		case 1:
+			System.out.println("Sunday");
+			break;
+		case 2:
+			System.out.println("Monday");
+			break;
+		case 3:
+			System.out.println("Tuesday");
+			break;
+		case 4:
+			System.out.println("wednesday");
+			break;
+		case 5:
+			System.out.println("Thursday");
+			break;
+		case 6:
+			System.out.println("Friday");
+			break;
+		case 7:
+			System.out.println("Saturday");
+		break;
+			default:
+				System.out.println("Incorrect Day");
+				System.out.println();
+				System.out.println();
+			
+		}
+		
+		// Program 3
+		int weekdays=1;
+				
+		switch(weekdays) {
+		case 1:
+		case 2:
+		case 3:
+		case 4:
+		case 5:
+			System.out.println("Monday");
+			System.out.println("Tuesday");	
+			System.out.println("Wednesday");
+			System.out.println("Thursday");
+			System.out.println("Friday");
+			System.out.println();
+		
+		}
+		
+		//08/11/2022
+		
+		int holiday=6;
+		switch(holiday) {
+		case 1:
+			System.out.println("New year");
+			break;
+		case 2:
+			System.out.println("Good friday");
+			break;
+		case 3:
+			System.out.println("Memorial Day");
+			break;
+		case 4:
+			System.out.println("Labor Day");
+			break;
+		case 5:
+			System.out.println("Thanks Givining");
+			break;
+		case 6:
+			System.out.println( "Christmas Day");
+			break;
+		default:
+				System.out.println("No Holiday");
+			
+		}
+		
+		//08/16/2022
+		System.out.println("Today Practies ");
+		System.out.println();
+		int day=7;
+		switch(1) {
+		case 1:
+			System.out.println("Sunday");
+			break;
+		case 2:
+			System.out.println("Monday");
+			break;
+		case 3:
+			System.out.println("Tuesday");
+		break;
+		case 4:
+			System.out.println("Wednesday");
+		
+			break;
+		case 5:
+			System.out.println("Thrusday");
+			break;
+		case 6:
+			System.out.println("Friday");
+			break;
+		case 7:
+			System.out.println("Saturday");
+			break;
+			default:
+				System.out.println("Incorrect day");
+			
+		}
+		
+		// 08/18/2022
+		
+		int DayOff=1;
+		switch(DayOff) {
+		case 1:
+			System.out.println("New Year");
+		break;
+		case 2:
+			System.out.println("Good Friday");
+			break;
+		case 3:
+			System.out.println("Memorial Day");
+			break;
+		case 4:
+			System.out.println("Labor Day");
+			break;
+			default:
+				System.out.println("Incorrect Day");
+		
+		
+		
+		
+		
+		
+		
+		}
+	}
+
+}
