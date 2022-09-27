@@ -1,0 +1,181 @@
+package JavaRevision;
+
+public class Revision1 {
+	
+	public static void main(String[] args) {
+		
+
+		
+		int a=10;
+		int b=20;
+		System.out.println("Airthmetic Operator");
+		System.out.println(a+b);
+		System.out.println(a-b);
+		System.out.println(a*b);
+		System.out.println(a/b);
+		System.out.println(a%b);
+		
+		//logical operator
+		//&&
+		System.out.println();
+		System.out.println("And Operator");
+		System.out.println(a<b && b>a );
+		System.out.println(a<=b && b<a );
+		System.out.println(a>b && b<a );
+		System.out.println(a>b && b<=a );
+		
+		//|| 
+		System.out.println();
+		System.out.println("Or Operator");
+		System.out.println(a<b || b>a);
+		System.out.println(a<=b|| b>a );
+		System.out.println(a>b ||b>a );
+		System.out.println(a<b || b<a );
+		//!
+		System.out.println(!(a>b));
+
+
+		//Unary operator
+		System.out.println();
+		System.out.println("Unary Operator");
+		int c=10;
+		c=c+1;
+		System.out.println(c);
+		c+=1;
+		System.out.println(c);
+		
+		int d= 5;
+		System.out.println(d);
+		d=d-1;
+		System.out.println(d);
+		d-=1;
+		System.out.println(d);
+		
+		//Conditional statement
+		System.out.println();
+		System.out.println("Conditional Statement:");
+		
+		
+		int a1=5;
+		int b1=6;
+		
+		if(a1<b1) {
+			System.out.println("Correct Answer");
+			}
+		else {
+			System.out.println("Wrong Answer.");
+		}
+		
+		int marks=80;
+		//marks is between 70-80 is C grade
+		// Marks is between 81-90 is B grade
+		//Marks is over 91-100 is A grade
+		
+		if(marks>72) {
+			System.out.println("C grade");
+		}
+		if(marks>82) {
+			System.out.println("B grade");
+			
+		}
+		if(marks>92) {
+			System.out.println(" A grade");
+		}
+		
+		int sum1=100;
+		int sum2=20;
+		if(sum1<sum2) {
+			System.out.println("Correct Number");
+		}
+		else if(sum1>sum2) {
+			System.out.println("Not correct Number");
+		}
+		else {
+			System.out.println("Please correct your Total");
+		}
+		
+		System.out.println();
+		System.out.println("Switch case");
+		int day=3;
+		switch(day) {
+		case 1:
+			System.out.println("Sunday");
+			break;
+		case 2:
+			System.out.println("Monday");
+			break;
+		case 3:
+			System.out.println("Tuesday");
+			break;
+		case 4:
+			System.out.println("Wednesday");
+			break;
+			default:
+				System.out.println("Invalid day");
+		}
+		// Loop
+		System.out.println();
+		System.out.println(" for Loop increment");
+		
+		for(int i=0;i<5;i++) {
+			System.out.println(i);
+		}
+		
+		System.out.println("for loop decrement");
+		for(int i=10;i>0;i--) {
+			System.out.println(i);
+		}
+		
+		//while loop
+		System.out.println("while loop in increment");
+		int aa=0;
+		while(aa<=10) {
+			System.out.println(aa);
+			aa++;
+		}
+		System.out.println("while loop in decrement");
+		int bb=5;
+		while(bb>0) {
+			System.out.println(bb);
+			bb--;
+		}
+		
+		// array
+		System.out.println();
+		System.out.println("Array:");
+		
+		String [] name= {"Ram","Sita","Gita"};
+		System.out.println(name[0]);
+		System.out.println(name[1]);
+		System.out.println(name[2]);
+		
+		System.out.println();
+		System.out.println("Array with for loop");
+		
+		for(int i=0;i<name.length;i++) {
+			System.out.println(name[i]);
+		}
+		
+		System.out.println();
+		System.out.println("String method:");
+		String fn="Ranjana";
+		String ln=" Rupakheti";
+		System.out.println(fn.toLowerCase());
+		System.out.println(fn.toUpperCase());
+		System.out.println(fn.length());
+		
+		System.out.println(fn.toLowerCase().toUpperCase().length());
+		
+		System.out.println(fn.concat(ln));
+		System.out.println(fn.equals(ln));
+		System.out.println(fn.charAt(0));
+		
+		System.out.println();
+		System.out.println("Function:");
+		
+		
+		
+	}
+
+}
+

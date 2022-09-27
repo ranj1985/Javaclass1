@@ -1,0 +1,44 @@
+package JavaRevision;
+
+public class Revision2 {
+	
+public static void myMethod() {
+	System.out.println("My method is learn Java quicker.");
+	System.out.println("I like learn new topic.");
+}
+
+public static void name(String fn,String ln) {
+	System.out.println("First name is: "+fn + " Last name is:" +ln);
+	
+}
+
+	public static void main(String[] args) {
+		
+		myMethod();
+		myMethod();
+		name("Ranjana"," Rupakheti");
+		
+		Animal an=new Animal("Tiger","Brown");
+		an.eat();
+		an.walk();	
+	}
+
+}
+class Animal{
+	String name;
+	String color;
+	
+	public Animal(String na,String co) {
+		this.name=na;
+		this.color=co;
+		
+		
+	}
+	public void eat() {
+		System.out.println(" I like to eat meat");
+	}
+	
+	public void walk() {
+		System.out.println("I dont like walk");
+	}
+}
